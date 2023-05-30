@@ -1,0 +1,21 @@
+h1{
+    color: green;    
+}
+p{
+    color: lightgreen;
+}
+img:hover{
+    background-color: gold;
+}
+.olive{
+    background-color: olivedrab;
+}
+.kiwi{
+    background-color: palegreen;
+}
+.circular{
+    border-radius: 100%;
+}
+#heading{
+    color: black;
+}
