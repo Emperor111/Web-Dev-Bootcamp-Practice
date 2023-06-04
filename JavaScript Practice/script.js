@@ -21,6 +21,37 @@
 // var remaining = (name.slice(1, name.length)).toLowerCase();
 // alert("Hello " + letter1 + remaining);
 
-var dog_age = prompt("What is the age of your dog?");
-var human_age = ((dog_age - 2) * 4) + 21;
-alert(human_age);
+// var dog_age = prompt("What is the age of your dog?");
+// var human_age = ((dog_age - 2) * 4) + 21;
+// alert(human_age);
+
+// function getMilk(money) {   
+//     console.log("leaveHouse");
+//     console.log("moveRight");
+//     console.log("moveRight");
+//     console.log("moveUp");
+//     console.log("moveUp");
+//     console.log("moveUp");
+//     console.log("moveUp");
+//     console.log("moveRight");
+//     console.log("moveRight");
+//   //if a bottle costs 2 dollars
+//     var bottles = Math.floor(money/2);
+//     console.log("Buy " + bottles + " bottles of milk.");
+//     console.log("moveLeft");
+//     console.log("moveLeft");
+//     console.log("moveDown");
+//     console.log("moveDown");
+//     console.log("moveDown");
+//     console.log("moveDown");
+//     console.log("moveLeft");
+//     console.log("moveLeft");
+//     console.log("enterHouse");
+//     alert("Robby is about to return with " + bottles + " bottles of milk.")
+//     return money % 2; //Remainder of this division.
+//   }
+//   var money = prompt("How much money did you give to robby?")
+//   getMilk(money)
+//   var change = getMilk(money);
+//   console.log(change);
+
