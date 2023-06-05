@@ -96,3 +96,31 @@
 //     var age = prompt("What is your age?");
 //     lifeInWeeks(age)    
 
+//Random Love Calculator
+// alert("Welcome to Love Calculator.");
+// var name1 = prompt("Enter your name.");
+// var name2 = prompt("Enter your partner's name.");
+
+// function love(){
+//     var percent = Math.round((Math.random() * 100) + 1);
+//     return percent
+// }
+// score = love()
+// alert(name1 + "'s love percent with " + name2 + " is " + score);
+
+// //Random Love Calculator
+// alert("Welcome to Love Calculator.");
+// var name1 = prompt("Enter your name.");
+// var name2 = prompt("Enter your partner's name.");
+
+// function love(){
+//     var percent = Math.round((Math.random() * 100) + 1);
+//     return percent
+// }
+// score = love()
+// if (score > 70){
+//     alert(name1 + "'s love percent with " + name2 + " is " + score + "Your love is like kanye loves kanye.");
+// } else {
+//     alert(name1 + "'s love percent with " + name2 + " is " + score);
+// } 
+
