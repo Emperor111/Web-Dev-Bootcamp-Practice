@@ -124,3 +124,33 @@
 //     alert(name1 + "'s love percent with " + name2 + " is " + score);
 // } 
 
+//Guest List Checker
+// var guestlist = ["Eshan","Aman","Ayush","Shashank","Abhijeet"];
+// var name = prompt("What is your name?")
+// if (guestlist.includes(name)){
+//     alert("Welcome!")
+// }else{
+//     alert("Sorry, maybe next time.")
+// }
+
+//Fizzbuzz .push / ,pop
+// var output=[];
+// var count=1;
+// function fizzbuzz(){
+// if (count%3==0 && count%5==0){
+//     output.push("fizzbuzz");
+//     count++;
+// }
+// else if (count%3===0){
+//     output.push("fizz");
+//     count++;
+// }
+// else if (count%5===0){
+//     output.push("buzz");
+//     count++;        
+// }
+// else {
+//     output.push(count); 
+//     count++;}
+// console.log(output)
+// }
