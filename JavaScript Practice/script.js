@@ -154,3 +154,85 @@
 //     count++;}
 // console.log(output)
 // }
+
+// var numberOfBottles = 99
+// while (numberOfBottles >= 0) {
+//     var bottleWord = "bottle";
+//     if (numberOfBottles === 1) {
+//         bottleWord = "bottles";
+//     } 
+//     console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+//     console.log(numberOfBottles + " " + bottleWord + " of beer,");
+//     console.log("Take one down, pass it around,");
+// 	numberOfBottles--;
+//     console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
+// }
+
+//For loop
+// for (i=0; i<2; i++){
+
+// }
+
+//Fibonacci Series
+// function fibonacciGenerator (n) {
+//     //Do NOT change any of the code above 👆
+        
+//         //Write your code here:
+//         //Fibonacci Series
+//         var output = [];
+//         if (n===1){
+//             output = [0];
+//         }
+//         else if (n===2){
+//             output = [0,1];
+//         }
+//         else{
+//             output = [0,1];    
+//             for (var i=2; i<n; i++){
+//                 output.push(output[i-2] + output[i-1]);
+//             }
+//         }
+//         return output;
+    
+//         //Return an array of fibonacci numbers starting from 0.
+        
+//     //Do NOT change any of the code below 👇
+//     }
+    
+//DOM - Document Object Model //type in console
+document;
+document.firstElementChild;
+document.firstElementChild.firstElementChild;
+document.firstElementChild.lastElementChild;
+var heading = document.firstElementChild.lastElementChild.firstElementChild;
+
+
+
+heading.innerHTML = "GoodBye";
+
+document.querySelector("input").click();
+//Call - Set - Get Properties & Method
+
+//GetElements
+document.getElementsByTagName("li");
+document.getElementsByTagName("li")[3].style.color="purple";
+document.getElementsByTagName("li").length;
+document.getElementsByClassName("btn");
+//but to select an specific item, you have to take class as an array, hence
+document.getElementsByClassName("btn")[0].style.color="Blue";
+document.getElementById("h1").innerHTML="GoodBye";
+
+//queryselector
+document.querySelector("Anything, Id, Class, String, tag using css method")
+document.querySelectorAll("")[].;
+document.querySelector(".btn").style.backgroundColor="yellow";
+document.querySelector("button").classList;
+document.querySelector("button").classList.add("invisible");
+document.querySelector("button").classList.remove("invisible");
+document.querySelector("button").classList.toggle("invisible");
+
+document.querySelector("h1").textContent;
+document.querySelector("h1").innerHTML="<em>invisible</em>";
+document.querySelector("a").attributes;
+document.querySelector("a").getAttribute("href");
+document.querySelector("a").getAttribute("href", "https://www.bing.com");
