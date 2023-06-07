@@ -200,39 +200,63 @@
 //     }
     
 //DOM - Document Object Model //type in console
-document;
-document.firstElementChild;
-document.firstElementChild.firstElementChild;
-document.firstElementChild.lastElementChild;
-var heading = document.firstElementChild.lastElementChild.firstElementChild;
+// document;
+// document.firstElementChild;
+// document.firstElementChild.firstElementChild;
+// document.firstElementChild.lastElementChild;
+// var heading = document.firstElementChild.lastElementChild.firstElementChild;
 
 
 
-heading.innerHTML = "GoodBye";
+// heading.innerHTML = "GoodBye";
 
-document.querySelector("input").click();
-//Call - Set - Get Properties & Method
+// document.querySelector("input").click();
+// //Call - Set - Get Properties & Method
 
-//GetElements
-document.getElementsByTagName("li");
-document.getElementsByTagName("li")[3].style.color="purple";
-document.getElementsByTagName("li").length;
-document.getElementsByClassName("btn");
-//but to select an specific item, you have to take class as an array, hence
-document.getElementsByClassName("btn")[0].style.color="Blue";
-document.getElementById("h1").innerHTML="GoodBye";
+// //GetElements
+// document.getElementsByTagName("li");
+// document.getElementsByTagName("li")[3].style.color="purple";
+// document.getElementsByTagName("li").length;
+// document.getElementsByClassName("btn");
+// //but to select an specific item, you have to take class as an array, hence
+// document.getElementsByClassName("btn")[0].style.color="Blue";
+// document.getElementById("h1").innerHTML="GoodBye";
 
-//queryselector
-document.querySelector("Anything, Id, Class, String, tag using css method")
-document.querySelectorAll("")[].;
-document.querySelector(".btn").style.backgroundColor="yellow";
-document.querySelector("button").classList;
-document.querySelector("button").classList.add("invisible");
-document.querySelector("button").classList.remove("invisible");
-document.querySelector("button").classList.toggle("invisible");
+// //queryselector
+// document.querySelector("Anything, Id, Class, String, tag using css method")
+// document.querySelectorAll("")[].;
+// document.querySelector(".btn").style.backgroundColor="yellow";
+// document.querySelector("button").classList;
+// document.querySelector("button").classList.add("invisible");
+// document.querySelector("button").classList.remove("invisible");
+// document.querySelector("button").classList.toggle("invisible");
 
-document.querySelector("h1").textContent;
-document.querySelector("h1").innerHTML="<em>invisible</em>";
-document.querySelector("a").attributes;
-document.querySelector("a").getAttribute("href");
-document.querySelector("a").getAttribute("href", "https://www.bing.com");
+// document.querySelector("h1").textContent;
+// document.querySelector("h1").innerHTML="<em>invisible</em>";
+// document.querySelector("a").attributes;
+// document.querySelector("a").getAttribute("href");
+// document.querySelector("a").getAttribute("href", "https://www.bing.com");
+
+//Higher Order Functions and Passing Functions as Arguements
+//function add(num1,num2){
+//    return num1 + num2;}
+//function subtract(num1,num2){
+//    return num1 - num2;}
+//function multiply(num1,num2){
+//    return num1 * num2;}
+//function divide(num1,num2){
+//    return num1 / num2;}
+//function calculator(num1,num2, operator) {
+//    return operator(num1,num2);}
+
+//debugger;
+//calculator(2,8,multiply) //for chrome debugger
+
+//Constructor Function
+function BellBoy (name, age, hasWorkPermit, languages) {
+	this.name = name;
+	this.age = age;
+	this.hasWorkPermit = hasWorkPermit;
+	this.languages = languages;
+}
+var BellBoy1 = new BellBoy("Timmy", 19, true, ["French", "English"]);
