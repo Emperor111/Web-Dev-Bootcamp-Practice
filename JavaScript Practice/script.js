@@ -253,10 +253,28 @@
 //calculator(2,8,multiply) //for chrome debugger
 
 //Constructor Function
-function BellBoy (name, age, hasWorkPermit, languages) {
-	this.name = name;
-	this.age = age;
-	this.hasWorkPermit = hasWorkPermit;
-	this.languages = languages;
-}
-var BellBoy1 = new BellBoy("Timmy", 19, true, ["French", "English"]);
+// function BellBoy (name, age, hasWorkPermit, languages) {
+// 	this.name = name;
+// 	this.age = age;
+// 	this.hasWorkPermit = hasWorkPermit;
+// 	this.languages = languages;
+//     this.clean = function(){
+//         alert("Cleaning in progress...");
+//     }
+// }
+// var BellBoy1 = new BellBoy("Timmy", 19, true, ["French", "English"]);
+// //CallBacks & Reponds
+// function anotherAddEventListener(typeOfEvent,callback) {
+//     //Detect Event Code...
+// var eventThatHappened = {
+//     eventType: "Keypress",
+//     key:"p",
+//     durationOfKeypress:2
+
+// }
+
+// if (eventThatHappened.eventType === typeOfEvent){
+//     callback(eventThatHappened);
+// }
+
+// }
