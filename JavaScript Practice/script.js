@@ -278,3 +278,39 @@
 // }
 
 // }
+
+//Different & Latest ways of writing a loop
+
+//let's say an array
+
+// const fish = ['dory', 'bruce', 'marlin', 'nemo'];
+
+// //1st loop
+// function findNemo2(fish) {
+//   for (let i = 0; i < fish.length; i++) {
+//     if (fish[i] === 'nemo') {
+//       console.log('Found NEMO!');
+//     }
+//   }
+// }
+
+// //2nd loop
+// const findnemo3 = array => {
+//     array.forEach(fish => {
+//         if (fish === 'nemo'){
+//             console.log('Found NEMO!');
+//         }        
+//     });
+// }
+
+// //3rd loop
+// const findnemo4 = array => {
+//     for (let fish of array) {
+//         if (fish === 'nemo'){
+//             console.log('Found NEMO!');
+//         }        
+//     };
+// }
+// findNemo2(fish);
+// findnemo3(fish);
+// findnemo4(fish);
